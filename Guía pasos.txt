@@ -1,0 +1,74 @@
+main = 1 - 13
+14. Crea carpeta de multimedia en la raíz: "assets"
+15. Informa a flutter acerca de los archivos multimedia que agregamos. En el archivo pubspec.yaml
+    descomentamos "assets:" y luego agregamos la ruta al archivo multimedia que vamos a utilizar
+    en nuestra app, por ejemplo:
+    assets:
+      - assets/food.jpg
+    Donde - assets/ se refiere a la ruta donde se encuentra el archivo, y food.jpg es el archivo
+    específico con su extensión.
+main = 16 - 29
+30. Crea archivo en la raíz: "products.dart" para separar el código que renderiza la lista de
+    productos
+products = 31, 32
+33. Crea archivo en la raíz: "product_manager.dart" para almacenar el código que controla los
+    productos
+product_manager = 34 - 38
+main = 39 - 41
+product_manager = 42, 43
+main = 44
+products = 45
+46. Crea archivo en la raíz: "product_control.dart" para separar el código del botón que agrega nuevos
+productos
+product_manager = 47, 48
+product_control = 49, 50
+main = 51 - 54
+products = 55
+product_manager = 56
+products = 57 - 61
+62. Crea una carpeta en /lib/: "pages.dart" que almacena las páginas de la app
+63. Crea archivo en lib/pages/: "products.dart" que muestra todos los productos agregados
+products = 64
+65. Crea un archivo en lib/pages/: "product.dart" que muestra los detalles del producto seleccionado
+de los productos
+products = 66, 67
+lib/pages/product = 68
+products = 69
+lib/pages/product = 70, 71
+72. Crea un archivo en lib/pages/: "auth.dart" que muestra la página para login de usuarios
+lib/pages/auth = 73
+lib/pages/products = 74 - 76
+lib/pages/products_admin = 77 - 80
+main = 81
+lib/pages/products = 82
+main = 83 - 85
+lib/pages/product = 86
+lib/pages/product_edit = 87 - 93
+products = 94
+auth = 95 - 98
+lib/pages/products = 99, 100
+101. Mueve products.dart a /lib/widgets/products/products.dart
+lib/pages/auth = 102
+lib/pages/product_edit = 103 - 110
+lib/pages/product_list = 111 - 113
+114. Crea un archivo en /lib/models/: "product.dart" que sirve como modelo de un objeto de
+producto. Este modelo reemplaza el map que se venía usando para el producto y define las
+propiedades de clase que esta tendrá específicamente
+115. Crea un archivo en /lib/scoped-models/: "products.dart" que almacena el scoped model con los
+métodos relacionados con el producto y un método para obtener una nueva lista de productos
+lib/scoped-models/connected_products = 116
+lib/products/products = 117
+main = 118
+lib/scoped-models/connected_products = 119 - 121
+lib/scoped-models/main = 122
+lib/scoped-models/connected_products = 123 - 127
+lib/pages/products = 128, 129
+lib/widgets/products/product_card = 130
+lib/scoped-models/connected_products = 131 - 134
+lib/pages/auth = 135
+lib/scoped-models/connected_products = 136 - 144
+main = 145
+lib/scoped-models/connected_products = 146
+main = 147
+lib/widgets/form_inputs/location = 148 - 154
+

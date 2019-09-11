@@ -1,0 +1,25 @@
+Stateless Widget
+
+  Constructor:
+    Es ejecutado una sola vez cuando se inicializa una nueva instancia de la clase
+
+  buid:
+    Es ejecutado para renderizar los Widgets en la pantalla y se puede volver a ejecutar cada vez
+    que se insertan nuevos datos externos
+
+Statefull Widget
+
+  Constructor:
+    Es ejecutado una sola vez cuando se inicializa una nueva instancia de la clase
+
+  initState:
+    Inicializa estados antes de ejecutar por primera vez el método build
+
+  build:
+    Es ejecutado para renderizar los Widgets en la pantalla
+
+  setState:
+    Modifica los estados internos del widget y permite renderizar nueva mente la interfaz
+
+  didUpdateWidget:
+    Se ejecuta después de cambiar algún estado en el widget
